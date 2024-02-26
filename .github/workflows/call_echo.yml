@@ -13,8 +13,8 @@ jobs:
       - name: Trigger Workflow in Another Repository
         run: |
           # Set the required variables
-          repo_owner="REPOSITORY OWNER" 
-          repo_name="REPOSITORY NAME"  
+          repo_owner="embrace-io" 
+          repo_name="workflow-sandbox-internal"  
           event_type="echo-yaml"
         
           curl -L \
